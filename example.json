@@ -1,0 +1,20 @@
+// to be added to course/config.json
+
+{
+	"_cordova": {
+		"id": "com.example.hello",
+		"version": "1.0.0",
+		"authorEmail": "dev@cordova.apache.org",
+		"authorWebsite": "http://cordova.io",
+		"authorName": "Apache Cordova Team"
+	}
+}
+
+// to be added to course/course.json
+
+{
+	"_cordova": {
+		"appName": "Hello world",
+		"appDescription": "A sample Apache Cordova application that responds to the deviceready event."
+	}
+}

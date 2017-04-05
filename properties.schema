@@ -1,0 +1,94 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://jsonschema.net",
+    "required": false,
+    "properties" : {
+        "pluginLocations" : {
+            "type" : "object",
+            "required" : true,
+            "properties" : {
+                "config" : {
+                    "type" : "object",
+                    "properties" : {
+                        "_cordova" : {
+                            "type" : "object",
+                            "required" : false,
+                            "legend" : " cordova",
+                            "properties" : {
+                                 "id" : {
+                                 	"type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "App ID",
+                                        "default" : "",
+                                        "help" : "App ID e.g. com.example.hello or org.theodi.elearning (must be unique!)",
+                                        "translatable" : false
+                                 },
+                                 "version" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Version",
+                                        "default" : "1.0.0",
+                                        "help" : "App version e.g. 1.0.0",
+                                        "translatable" : false
+                                 },
+                                 "authorName" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Name of author",
+                                        "default" : "",
+                                        "help" : "e.g. Apache cordova team",
+                                        "translatable" : false
+                                 },
+                                 "authorEmail" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Author Email",
+                                        "default" : "",
+                                        "help" : "Application author email e.g. dev@cordova.apache.org",
+                                        "translatable" : false
+                                 },
+                                 "authorWebsite" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Website of author",
+                                        "default" : "",
+                                        "help" : "e.g. http://cordova.io",
+                                        "translatable" : false
+                                 }
+                            }
+                        }
+                    }
+                },
+                "course" : {
+                    "type" : "object",
+                    "properties" : {
+                        "_cordova" : {
+                            "type" : "object",
+                            "required" : false,
+                            "legend" : " cordova",
+                            "properties" : {
+                                 "appName" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Name",
+                                        "default" : "",
+                                        "help" : "Name for mobile app that appears under icon on device screen. e.g. 'Hello World'",
+                                        "translatable" : false
+                                 },
+                                 "appDescription" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Description",
+                                        "default" : "",
+                                        "help" : "Description of the app e.g. 'A sample Apache Cordova application that responds to the deviceready event.",
+                                        "translatable" : false
+                                 }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
