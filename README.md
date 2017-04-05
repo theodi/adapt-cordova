@@ -4,7 +4,7 @@ Adds the relevant cordova config to a module so that mobile applications can be 
 
 ## Authoring tool installation
 
-Ddownload repository as a zip file and import the extension into the adapt authoring tool (v0.2.0+). In the authoring tool you can configure the extension from the configuration settings screen of a page on a course. 
+Download repository as a zip file and import the extension into the adapt authoring tool (v0.2.0+). In the authoring tool you can configure the extension from the configuration settings screen of a page on a course. 
 
 ## Command-line installation
 
