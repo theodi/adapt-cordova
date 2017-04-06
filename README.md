@@ -1,4 +1,4 @@
-# adapt-odi-cordova
+# adapt-cordova
 
 Adds the relevant cordova config to a module so that mobile applications can be built easily.
 
