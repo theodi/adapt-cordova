@@ -18,44 +18,53 @@
                             "properties" : {
                                  "id" : {
                                  	"type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "App ID",
-                                        "default" : "",
-                                        "help" : "App ID e.g. com.example.hello or org.theodi.elearning (must be unique!)",
-                                        "translatable" : false
+                                    "inputType" : "Text",
+                                    "title" : "App ID",
+                                    "default" : "",
+                                    "help" : "App ID e.g. com.example.hello or org.theodi.elearning (must be unique!)",
+                                    "translatable" : false
                                  },
                                  "version" : {
                                     "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Version",
-                                        "default" : "1.0.0",
-                                        "help" : "App version e.g. 1.0.0",
-                                        "translatable" : false
+                                    "inputType" : "Text",
+                                    "title" : "Version",
+                                    "default" : "1.0.0",
+                                    "help" : "App version e.g. 1.0.0",
+                                    "translatable" : false
                                  },
                                  "authorName" : {
                                     "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Name of author",
-                                        "default" : "",
-                                        "help" : "e.g. Apache cordova team",
-                                        "translatable" : false
+                                    "inputType" : "Text",
+                                    "title" : "Name of author",
+                                    "default" : "",
+                                    "help" : "e.g. Apache cordova team",
+                                    "translatable" : false
                                  },
                                  "authorEmail" : {
                                     "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Author Email",
-                                        "default" : "",
-                                        "help" : "Application author email e.g. dev@cordova.apache.org",
-                                        "translatable" : false
+                                    "inputType" : "Text",
+                                    "title" : "Author Email",
+                                    "default" : "",
+                                    "help" : "Application author email e.g. dev@cordova.apache.org",
+                                    "translatable" : false
                                  },
                                  "authorWebsite" : {
                                     "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Website of author",
-                                        "default" : "",
-                                        "help" : "e.g. http://cordova.io",
-                                        "translatable" : false
-                                 }
+                                    "inputType" : "Text",
+                                    "title" : "Website of author",
+                                    "default" : "",
+                                    "help" : "e.g. http://cordova.io",
+                                    "translatable" : false
+                                 },
+                                 "AppIcon": {
+                                    "title" : "Application Icon (2048*2048)",
+                                    "type":"string",
+                                    "required":true,
+                                    "default": "",
+                                    "inputType": "Asset:image",
+                                    "validators": ["required"],
+                                    "help": ""
+                                }
                             }
                         }
                     }
