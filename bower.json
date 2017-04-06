@@ -1,17 +1,17 @@
 {
-  "name": "adapt-odi-licence",
+  "name": "adapt-cordova",
   "version": "0.1.0",
   "framework": "^2.0.0",
-  "homepage": "https://github.com/theodi/adapt-odi-licence",
+  "homepage": "https://github.com/theodi/adapt-cordova",
   "issues": "",
-  "displayName" : "Licence terms (in Tutor)",
-  "extension" : "odi-licence",
-  "description": "Adds a cretive commons licence to adapt 2 content.",
-  "main": "/js/adapt-odi-licence.js",
+  "displayName" : "Cordova configuration for Adapt 2 course",
+  "extension" : "Cordova config",
+  "description": "Add cordova config to an Adapt 2 course so it can be built from the course.",
+  "main": "/js/adapt-cordova.js",
   "keywords": [
     "adapt-plugin",
     "adapt-extension"
   ],
   "license": "GPLv3",
-  "targetAttribute": "_licencePage"
+  "targetAttribute": "_cordova"
 }
