@@ -78,7 +78,7 @@
                                     "required":true,
                                     "default": "",
                                     "inputType": "Asset:image",
-                                    "validators": ["required"],
+                                    "validators": "",
                                     "help": ""
                                 },
                                 "appSplash": {
@@ -87,7 +87,7 @@
                                     "required":true,
                                     "default": "",
                                     "inputType": "Asset:image",
-                                    "validators": ["required"],
+                                    "validators": "",
                                     "help": ""
                                 }
                             }
