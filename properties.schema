@@ -56,8 +56,17 @@
                                     "help" : "e.g. http://cordova.io",
                                     "translatable" : false
                                  },
-                                 "AppIcon": {
-                                    "title" : "Application Icon (2048*2048)",
+                                 "appIcon": {
+                                    "title" : "Application icon (2048*2048)",
+                                    "type":"string",
+                                    "required":true,
+                                    "default": "",
+                                    "inputType": "Asset:image",
+                                    "validators": ["required"],
+                                    "help": ""
+                                },
+                                "appSplash": {
+                                    "title" : "Application splash screen (2048*2048)",
                                     "type":"string",
                                     "required":true,
                                     "default": "",
