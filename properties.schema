@@ -8,7 +8,7 @@
             "type" : "object",
             "required" : true,
             "properties" : {
-                "config" : {
+                "course" : {
                     "type" : "object",
                     "properties" : {
                         "_cordova" : {
@@ -16,8 +16,24 @@
                             "required" : false,
                             "legend" : " cordova",
                             "properties" : {
+                                 "appName" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Name",
+                                        "default" : "",
+                                        "help" : "Name for mobile app that appears under icon on device screen. e.g. 'Hello World'",
+                                        "translatable" : false
+                                 },
+                                 "appDescription" : {
+                                    "type" : "string",
+                                        "inputType" : "Text",
+                                        "title" : "Description",
+                                        "default" : "",
+                                        "help" : "Description of the app e.g. 'A sample Apache Cordova application that responds to the deviceready event.",
+                                        "translatable" : false
+                                 }
                                  "id" : {
-                                 	"type" : "string",
+                                    "type" : "string",
                                     "inputType" : "Text",
                                     "title" : "App ID",
                                     "default" : "",
@@ -74,34 +90,6 @@
                                     "validators": ["required"],
                                     "help": ""
                                 }
-                            }
-                        }
-                    }
-                },
-                "course" : {
-                    "type" : "object",
-                    "properties" : {
-                        "_cordova" : {
-                            "type" : "object",
-                            "required" : false,
-                            "legend" : " cordova",
-                            "properties" : {
-                                 "appName" : {
-                                    "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Name",
-                                        "default" : "",
-                                        "help" : "Name for mobile app that appears under icon on device screen. e.g. 'Hello World'",
-                                        "translatable" : false
-                                 },
-                                 "appDescription" : {
-                                    "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Description",
-                                        "default" : "",
-                                        "help" : "Description of the app e.g. 'A sample Apache Cordova application that responds to the deviceready event.",
-                                        "translatable" : false
-                                 }
                             }
                         }
                     }
