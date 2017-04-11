@@ -26,19 +26,19 @@
                                  },
                                  "name" : {
                                     "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Name",
-                                        "default" : "",
-                                        "help" : "Name for mobile app that appears under icon on device screen. e.g. 'Hello World'",
-                                        "translatable" : false
+                                    "inputType" : "Text",
+                                    "title" : "Name",
+                                    "default" : "",
+                                    "help" : "Name for mobile app that appears under icon on device screen. e.g. 'Hello World'",
+                                    "translatable" : false
                                  },
                                  "description" : {
                                     "type" : "string",
-                                        "inputType" : "Text",
-                                        "title" : "Description",
-                                        "default" : "",
-                                        "help" : "Description of the app e.g. 'A sample Apache Cordova application that responds to the deviceready event.",
-                                        "translatable" : false
+                                    "inputType" : "Text",
+                                    "title" : "Description",
+                                    "default" : "",
+                                    "help" : "Description of the app e.g. 'A sample Apache Cordova application that responds to the deviceready event.",
+                                    "translatable" : false
                                  },
                                  "version" : {
                                     "type" : "string",
@@ -87,6 +87,13 @@
                                     "default": "",
                                     "inputType": "Asset:image",
                                     "help": ""
+                                },
+                                "androidPublicKey": {
+                                    "title" : "Android public licence key",
+                                    "type":"string",
+                                    "default": "",
+                                    "inputType": "TextArea",
+                                    "help": "Base64-encoded RSA public key to include in your binary. Please remove any spaces."
                                 }
                             }
                         }

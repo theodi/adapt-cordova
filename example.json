@@ -1,20 +1,16 @@
-// to be added to course/config.json
-
-{
-	"_cordova": {
-		"id": "com.example.hello",
-		"version": "1.0.0",
-		"authorEmail": "dev@cordova.apache.org",
-		"authorWebsite": "http://cordova.io",
-		"authorName": "Apache Cordova Team"
-	}
-}
-
 // to be added to course/course.json
 
 {
 	"_cordova": {
-		"appName": "Hello world",
-		"appDescription": "A sample Apache Cordova application that responds to the deviceready event."
+		"id": "com.example.hello",
+		"name": "Hello world",
+		"description": "A sample Apache Cordova application that responds to the deviceready event.",
+		"version": "1.0.0",
+		"authorName": "Apache Cordova Team",
+		"authorEmail": "dev@cordova.apache.org",
+		"authorWebsite": "http://cordova.io",
+		"appIcon": "course/en/assets/icon.png",
+		"appSplash": "course/en/assets/splash.png",
+		"androidPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAm/C4H05pA+AJJ+93hRfiPKVzsNWYSfmXa14Oyssntf1ryAFJz9NwnFpLMQGmgTauQ1eXTE7LAgAbYVdSCenDwaazhEqDbF4Vl6qBNy4rpUuBv/+224ANTKPXbfdy1cXEFb/g33CVisAICgLHOWicgyD0XK9zCxTRWRg1uQWQ23Q8TUfyATLyNW9cUcLwpZpoKwiekhJeztcZPWO/0wGz0Qfi/nOZR9TggCPVh753iP9vlQ41QX79gtTA2lZWPijdfeXjeZXTdb81Rxlgbhc/S9E4cSIlTV61PNz0hKks8WiFGagq9MFuPZF/E5ejq7G9pKjvATcvQXA9pxFxxupi1wIDAQAB"
 	}
 }
