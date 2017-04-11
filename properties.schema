@@ -92,7 +92,7 @@
                                     "title" : "Android public licence key",
                                     "type":"string",
                                     "default": "",
-                                    "inputType": "TextArea",
+                                    "inputType": "Text",
                                     "help": "Base64-encoded RSA public key to include in your binary. Please remove any spaces."
                                 }
                             }
